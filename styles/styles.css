@@ -12,7 +12,6 @@ description: [apply.html style using CSS]
 
 */
 
-
 body{
     width: 810px;
     max-width: 100%;
@@ -20,42 +19,22 @@ body{
     background: whitesmoke;
 }
 
-  img{
-    width: 140px;
-  }
-
-  .image {
-  margin-left: 232px;
-  margin-top: 23px;
-}
-
-h1 {
-  color: #0E0C59;
-  text-shadow: 1px 1px #37A5DD;
-  font-size: 50px;
-  margin-top: -92px;
-  margin-left: 86px;
-  text-align: center;
-  font-family: serif;
-}
-
-h2 {
-  color: #0E0C59;
-  text-align: center;
-  font-size: 18px;
-  margin-top: -30px;
-  margin-left: 125px;
-  font-family: serif;
-}
-
 * { 
-    font-family: calibri, sans-serif;
-}   
+  font-family: calibri, sans-serif;
+} 
+
+.image {
+    margin-left: 232px;
+    margin-top: 23px; /* ensuring the image is sitting in place next to the header */
+    width: 140px;
+} 
 
 a {
   text-decoration: none;
   color: #0E0C59;
 }
+
+/* Navigation / Menu */
 
 nav ul { 
     list-style: none;
@@ -86,9 +65,11 @@ nav a:hover {
 }
 
 .description {
-  padding: 10px;
-  background: lightblue;
+    padding: 10px;
+    background: lightblue;
 }
+
+/* Form */
 
 fieldset {
   background: white;
@@ -116,6 +97,8 @@ input {
   border: outset black 2px;
 }
 
+/* Footer */
+
 footer a {
   margin: 0 3px 0 3px;
   text-decoration: none;
@@ -127,7 +110,7 @@ footer ul {
   text-align: right;
 }
 
-footer a::after{
+footer a::after{ /* adds a line ("|") after the menu links in the footer without making them apart of the links themselves */
   content: " | ";
   color: black;
 }
