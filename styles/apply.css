@@ -30,12 +30,21 @@ body{
 }
 
 h1 {
-  color: #37A5DD;
-  text-shadow: 1px 1px #0E0C59;
+  color: #0E0C59;
+  text-shadow: 1px 1px #37A5DD;
   font-size: 50px;
   margin-top: -92px;
   margin-left: 86px;
   text-align: center;
+  font-family: serif;
+}
+
+h2 {
+  color: #0E0C59;
+  text-align: center;
+  font-size: 18px;
+  margin-top: -30px;
+  margin-left: 125px;
   font-family: serif;
 }
 
@@ -73,6 +82,7 @@ nav a {
 nav a:hover {
   font-size: 130%;
   background: #1C8EC8;
+  transition: 0.5s;
 }
 
 .description {
@@ -96,6 +106,11 @@ legend {
   margin-bottom: 6px;
 }
 
+select {
+  border: 1px solid black;
+  background: whitesmoke;
+}
+
 input {
   border-radius: 0px;
   border: outset black 2px;
@@ -111,3 +126,9 @@ footer a {
 footer ul {
   text-align: right;
 }
+
+footer a::after{
+  content: " | ";
+  color: black;
+}
+
