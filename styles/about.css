@@ -1,0 +1,118 @@
+/*
+
+filename: [about.css]
+
+author: [Paul Harrington]
+
+created: [15 / 04 / 2026]
+
+last modified: [15 / 04 / 2026]
+
+description: [about.html style using CSS]
+
+*/
+* {
+  font-family: calibri, sans-serif;
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0E0C59;
+}
+
+/* LOGO */
+img{
+width: 140px;
+}
+.image {
+margin-left: 232px;
+margin-top: 23px;
+}
+
+/* NAVIGATION */
+nav a {
+  background: #37A5DD;
+  padding: 1px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+  color: #0E0C59;
+  font-size: 16px;
+}
+nav a:hover {
+  font-size: 130%;
+  background: #1C8EC8;
+  transition: 0.5s;
+}
+nav ul { 
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: -16px;
+}
+
+body{
+    width: 810px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+
+}
+/* HEADER */
+header h1 {
+  color: #0E0C59;
+  text-shadow: 1px 1px #37A5DD;
+  font-size: 50px;
+  margin-top: -92px;
+  margin-left: 86px;
+  text-align: center;
+  font-family: serif;
+}
+header h2 {
+  color: #0E0C59;
+  text-align: center;
+  font-size: 18px;
+  margin-top: -30px;
+  margin-left: 125px;
+  font-family: serif;
+}
+
+#container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+#services li {
+  display:list-item;
+}
+
+li {
+  display: inline-block;
+}
+
+.description {
+  padding: 10px;
+  background: lightblue;
+}
+
+
+/* FOOTER STYLES */
+footer a {
+  margin: 0 3px 0 3px;
+  text-decoration: none;
+  color: #0E0C59;
+}
+
+footer ul {
+  text-align: right;
+}
+
+footer a::after{
+  content: " | ";
+  color: black;
+}
+
