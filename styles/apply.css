@@ -1,0 +1,113 @@
+/*
+
+filename: [apply.css]
+
+author: [Ciara Smith]
+
+created: [2 / 04 / 2026]
+
+last modified: [15 / 04 / 2026]
+
+description: [apply.html style using CSS]
+
+*/
+
+
+body{
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    background: whitesmoke;
+}
+
+  img{
+    width: 140px;
+  }
+
+  .image {
+  margin-left: 232px;
+  margin-top: 23px;
+}
+
+h1 {
+  color: #37A5DD;
+  text-shadow: 1px 1px #0E0C59;
+  font-size: 50px;
+  margin-top: -92px;
+  margin-left: 86px;
+  text-align: center;
+  font-family: serif;
+}
+
+* { 
+    font-family: calibri, sans-serif;
+}   
+
+a {
+  text-decoration: none;
+  color: #0E0C59;
+}
+
+nav ul { 
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: -16px;
+}
+
+li {
+  display: inline-block;
+}
+
+nav a {
+  background: #37A5DD;
+  padding: 1px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+  color: #0E0C59;
+  font-size: 16px;
+}
+
+nav a:hover {
+  font-size: 130%;
+  background: #1C8EC8;
+}
+
+.description {
+  padding: 10px;
+  background: lightblue;
+}
+
+fieldset {
+  background: white;
+  box-shadow: 2px 2px 8px black;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: #0E0C59;
+  background: white;
+  border: solid black 1px;
+  padding: 1px 10px 1px 10px;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+input {
+  border-radius: 0px;
+  border: outset black 2px;
+}
+
+footer a {
+  margin: 0 3px 0 3px;
+  text-decoration: none;
+  color: #0E0C59;
+}
+
+
+footer ul {
+  text-align: right;
+}
