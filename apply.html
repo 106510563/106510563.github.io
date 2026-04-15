@@ -7,26 +7,27 @@
         <meta name="author" content="Ciara Smith">
         <link href="styles/styles.css" rel="stylesheet">
         <title>Apply to Linkly</title>
+
     </head>
 
-
     <body>
-        <a href="#about"><img class="image" src="images/logo.png" alt="Linkly logo"></a>
+        <a href="about.html"><img class="image" src="images/logo.png" alt="Linkly logo"></a>
+
         <header>
-            <h1><a href="#about">Linkly</a></h1>
-            <h2><a href="#about">Your connection to the future.</a></h2>
-        </header>
+            <h1 style="color: #0E0C59; text-shadow: 1px 1px #37A5DD; font-size: 50px; margin-top: -92px; margin-left: 86px; text-align: center; font-family: serif;"><a href="about.html">Linkly</a></h1>
+            <h2 style="color: #0E0C59; text-align: center; font-size: 18px; margin-top: -30px; margin-left: 125px; font-family: serif;"><a href="about.html">Your connection to the future.</a></h2>
+        </header> <!-- Features in-line CSS styles for both h1 and h2 -->
         <nav>
             <ul>
-            <li><p class="menu"><a href="#about">About</a></p></li>
-            <li><p class="menu"><a href="#index">Index</a></p></li>
-            <li><p class="menu"><a href="#jobs">Jobs</a></p></li>
-            <li><p class="menu"><a href="#apply">Apply</a></p></li>
+            <li><p class="menu"><a href="about.html">About</a></p></li>
+            <li><p class="menu"><a href="index.html">Index</a></p></li>
+            <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
+            <li><p class="menu"><a href="apply.html">Apply</a></p></li>
             </ul>
         </nav>
 
         <p class="description">Fill out the form below to apply for a job position. <br>
-        For more information on the specific job positions, please ensure to read the <a href="#jobs">Jobs</a> page. <br>
+        For more information on the specific job positions, please ensure to read the <a href="jobs.html">Jobs</a> page. <br>
         Fields marked with * are required.</p>
 
         <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
@@ -44,14 +45,14 @@
 
 
                 <p>Gender</p> 
+                <div id="gender">
 				<input type="radio" id="male" name="gender[]" value="male">
                 <label for="male">Male</label> 
-                <br>
 				<input type="radio" id="female" name="gender[]" value="female">
                 <label for="female">Female</label> 
-                <br>
 				<input type="radio" id="unspec" name="gender[]" value="unspec">
                 <label for="unspec">Other/Unspecified</label> 
+                </div>
 
                 <p><label for="street">Street Address*</label>
                 <input type="text" name= "street" id="street" maxlength="40" size="40" required="required"></p>
@@ -138,10 +139,10 @@
             <hr>
 		    <p>&#169; <em>Linkly</em> (2026) <br> Your connection to the future.</p>
             <ul>
-            <li><p class="menu"><a href="#about">About</a></p></li>
-            <li><p class="menu"><a href="#index">Index</a></p></li>
-            <li><p class="menu"><a href="#jobs">Jobs</a></p></li>
-            <li><p class="menu"><a href="#apply">Apply</a></p></li>
+            <li><p class="menu"><a href="about.html">About</a></p></li>
+            <li><p class="menu"><a href="index.html">Index</a></p></li>
+            <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
+            <li><p class="menu"><a href="apply.html">Apply</a></p></li>
             </ul>
 	    </footer>
     </body>
