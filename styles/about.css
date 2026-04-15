@@ -13,6 +13,7 @@ description: [about.html style using CSS]
 */
 * {
   font-family: calibri, sans-serif;
+  align-content: center;
 }
 
 a {
@@ -83,6 +84,10 @@ header h2 {
     max-width: 900px;
     margin: auto;
     padding: 20px;
+}
+
+#services li {
+  display:list-item;
 }
 
 li {
