@@ -52,6 +52,7 @@ nav ul {
     margin-top: -16px;
 }
 
+/*body*/
 body{
     width: 810px;
     max-width: 100%;
@@ -60,6 +61,7 @@ body{
     background: whitesmoke;
 
 }
+
 /* HEADER */
 header h1 {
   color: #0E0C59;
@@ -86,7 +88,7 @@ header h2 {
     padding: 20px;
 }
 /*to fix problems with list formmation*/
-#services li {
+.ulli li {
   display:list-item;
 }
 
@@ -99,6 +101,9 @@ li {
   background: lightblue;
 }
 
+table{
+  border: 10px;
+}
 
 /* FOOTER STYLES */
 footer a {
