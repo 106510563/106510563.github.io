@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="homepage" content="The first page people see on the website"/>
-        <meta name="keywords" content="Linkly, future, development, technology"/>
-        <meta name="author" content="Kai Dicker"/>
-        <title>Linkly Homepage</title>
+        <meta charset="utf-8">
+        <meta name="homepage" content="The first page people see on the website">
+        <meta name="keywords" content="Linkly, future, development, technology">
+        <meta name="author" content="Kai Dicker">
         <link href="styles/styles.css" rel="stylesheet">
+        <title>Linkly Homepage</title>
     </head>
-    <body>
-        <input type="text" id="searchBar" placeholder="Search...">
-        <ul class="searchAnswers">
-            <li><a href="#about">About</a></li>
-            <li><a href="#jobs">Jobs</a></li>
-            <li><a href="#apply">Apply</a></li>
-        </ul>
+    <body>        
+                <a href="about.html"><img class="image" src="images/logo.png" alt="Linkly logo"></a>
         <header>
-            <h1>Linkly Solutions - Your Connection to the Future</h1>
-            <img src="images/logo.png" alt="The Logo">
-        </header>
-        <nav>
-            <p class="menu"><a href="#about">About</a></p> 
-            <p class="menu"><a href="#index">Index</a></p> 
-            <p class="menu"><a href="#jobs">Jobs</a></p> 
-            <p class="menu"><a href="#apply">Apply</a></p> 
+            <h1 style="color: #0E0C59; text-shadow: 1px 1px #37A5DD; font-size: 50px; margin-top: -92px; margin-left: 86px; text-align: center; font-family: serif;"><a href="about.html">Linkly</a></h1>
+            <h2 style="color: #0E0C59; text-align: center; font-size: 18px; margin-top: -30px; margin-left: 125px; font-family: serif;"><a href="about.html">Your connection to the future.</a></h2>
+        </header> <!-- Features in-line CSS styles for both h1 and h2 -->
+
+                <nav>
+            <ul>
+            <li><p class="menu"><a href="about.html">About</a></p></li>
+            <li><p class="menu"><a href="index.html">Index</a></p></li>
+            <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
+            <li><p class="menu"><a href="apply.html">Apply</a></p></li>
+            <li><input type="text" id="searchBar" onkeyup="requiresJavaScriptLol()" placeholder="Search..."></li> <!-- Searchbar made by Kai -->
+
+            </ul>
         </nav>
+
+
+
+
+
         <article>
             <h2>The Future of Technology, Today</h2>
             <p>Here at Linkly, we strive to find the limit of technology. Progress is what humanity strives for, and we intend to take humanity to the pinnacle of its capabilities.</p>
@@ -38,13 +43,26 @@
             </tr>
             <tr>
                 <th>Kai Dicker</th>
-                <th colspan="3"><a href="https://ciarasmith.atlassian.net/jira/software/projects/EDRP/summary">Jira Page</a></th>
-                <th colspan="3"><a href="https://github.com/106510563/asm1">asm1</a></th>
+                <th rowspan="3"><a href="https://ciarasmith.atlassian.net/jira/software/projects/EDRP/summary">Jira Page</a></th>
+                <th rowspan="3"><a href="https://github.com/106510563/106510563.github.io">ASM1</a></th>
             </tr>
             <tr>
                 <th>Ciara Smith</th>
             </tr>
-            <tr>Paul Harrington</tr>
+            <tr>
+                <th>Paul Harrington</th>
+            </tr>
         </table>
+        <footer>
+            <hr>
+            <p>&#169; <em>Linkly</em> (2026) <br> Your connection to the future.</p>
+            <ul>
+            <li><p class="menu"><a href="about.html">About</a></p></li>
+            <li><p class="menu"><a href="index.html">Index</a></p></li>
+            <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
+            <li><p class="menu"><a href="apply.html">Apply</a></p></li>
+            </ul>
+        </footer>
     </body>
+
 </html>

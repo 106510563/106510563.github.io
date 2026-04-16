@@ -12,6 +12,8 @@ description: [apply.html style using CSS]
 
 */
 
+/* apply.html CSS */
+
 body{
     width: 810px;
     max-width: 100%;
@@ -115,3 +117,34 @@ footer a::after{ /* adds a line ("|") after the menu links in the footer without
   color: black;
 }
 
+
+/* index.html CSS */
+
+#searchBar {
+  border: 2px outset black;
+  margin-left: 25px;
+}
+
+article {
+  background: lightblue;
+  padding: 0.2em 1em 0.2em 01em;
+}
+
+article h2 {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  width: 50%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+table, th {
+  border: 1px solid black;
+  background: white;
+}
+
+th {
+  background: lightblue;
+}
