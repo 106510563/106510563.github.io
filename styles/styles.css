@@ -178,8 +178,20 @@ th {
 #funfact {
  width: auto; 
 }
-
 #group{
     max-width:100%;
     height: auto;
+}
+
+/*jobs.html CSS*/
+
+.Job1 {
+    border: 1px solid black;
+    margin: 25px;
+}
+.Job2 {
+    float: left;
+    border: 1px solid black;
+    margin: 25px;
+    transform: translateY(250px);
 }
