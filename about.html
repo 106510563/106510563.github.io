@@ -1,81 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="linkly, about, vision">
-    <meta name="author" content="Paul HArrington">    
-    <link rel="stylesheet" href="styles/about.css">
-    <title>About Us</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="homepage" content="The first page people see on the website">
+        <meta name="keywords" content="Linkly, future, development, technology">
+        <meta name="author" content="Kai Dicker">
+        <link href="styles/styles.css" rel="stylesheet">
+        <title>Linkly Homepage</title>
+    </head>
+
+    <body>
+        
+        <header>        
+            <a href="about.html"><img class="image" src="images/logo.png" alt="Linkly logo"></a>
+            <h1><a href="about.html">Linkly</a></h1>
+            <h2><a href="about.html">Your connection to the future.</a></h2>
+        </header> <!-- Features in-line CSS styles for both h1 and h2 -->
+        <nav>
+            <ul>
+                <li><p class="menu"><a href="about.html">About</a></p></li>
+                <li><p class="menu"><a href="index.html">Index</a></p></li>
+                <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
+                <li><p class="menu"><a href="apply.html">Apply</a></p></li>
+                <li><input type="text" id="searchBar" onkeyup="requiresJavaScriptLol()" placeholder="Search..."></li> <!-- Searchbar made by Kai -->
+            </ul>
+        </nav>
 
 
 
-<body>
-    <img class="image" src="images/logo.png" alt="Linkly logo">
-    
-    <header>
-        <h1>Linkly</h1>
-        <h2>Your connection to the future.</h2>
-    </header>
 
-    <nav>
-        <ul>
-        <li class="menu"><a href="about.html">About</a></li> 
-        <li class="menu"><a href="index.html">Index</a></li> 
-        <li class="menu"><a href="jobs.html">Jobs</a></li> 
-        <li class="menu"><a href="apply.html">Apply</a></li> 
-        </ul>
-    </nav>
-<div id="container">
 
-<!--MAIN TEXT AREA-->
-    <!--VISION-->
-    <section>
-        <h2><strong>Our Vision</strong></h2>
-        <article class="description">
-            We strive to use our understanding of HTML and make a user friendly and cooperative 
+        <article>
+            <h2>Our Vision</h2>
+            <p>Here at Linkly, we strive to find the limit of technology. Progress is what humanity strives for, and we intend to take humanity to the pinnacle of its capabilities.</p>
+            <p>We strive to use our understanding of HTML and make a user friendly and cooperative job Application website.</p>
         </article>
-    </section>
 
-    <!--ACTIONS-->
-    <section>
-    <h2><strong>What We Do</strong></h2>
-
-    <article class="description">
-        Linkly is a job application platform designed to help users easily:
-        <ul class="ulli">
-            <li>
-                Discover relevant job opportunities
-            </li>
-            <li>
-                Create and manage applications in one place
-            </li>
-            <li>
-                Connect with potential employers more efficiently
-            </li>
-            <li>
-                Simplify the hiring journey through smart design
-            </li>
-        </ul>
-    </article>
-    </section>
-
-
-    
-    <section>
-    <h2><strong>About Us</strong></h2>
-
-    <article class="description">
-    We are a group of university students from Swinburne University of Technology.
-    Together, we combined our skills to build a website that reflects both technical capability and user-centered thinking.
-    
     <h3>Group Information</h3>
     <ul class="ulli">
         <li>Group Name: Linkly Team</li>
         <li>Class Schedule
             <ul>
-                <li>Day: Monday</li>
+                <li>Day: Tuesday</li>
                 <li>Time: 10:30 AM</li>
             </ul>
         </li>
@@ -85,53 +51,66 @@
     <section>
     <h3>Team Members</h3>
     <dl>
-        <dt>Paul Harrington</dt>
+        <dt>Ciara Smith</dt>
         <dd>Role: Frontend Developer</dd>
         <dd>Contribution: Built navigation and layout</dd>
         <dd>Quote: "La tecnología conecta el mundo." (Technology connects the world.)</dd>
 
-        <dt>Member 2 Name</dt>
+        <dt>Paul Harrington</dt>
+        <dd>Role: Designer</dd>
+        <dd>Contribution: UI/UX design</dd>
+        <dd>Quote: "未来はここにある。" (The future is here.)</dd>        
+        
+        <dt>Kai Dicker</dt>
         <dd>Role: Designer</dd>
         <dd>Contribution: UI/UX design</dd>
         <dd>Quote: "未来はここにある。" (The future is here.)</dd>
     </dl>
     </section>
   
-    <section>
     <h2>Fun Facts</h2>
     <table>
         <caption>Team Fun Facts</caption>
         <tr>
-            <th>Name</th>
-            <th>Dream Job</th>
-            <th>Favorite Snack</th>
-            <th>Hometown</th>
+            <th><em>Name</em></th>
+            <th><em>Dream Job</em></th>
+            <th><em>Favorite Snack</em></th>
+            <th><em>Hometown</em></th>
         </tr>
+
         <tr>
-            <td>Paul</td>
-            <td>Software Engineer</td>
+            <td>Ciara Smith</td>
+            <td>CSS Programmer</td>
             <td>Chips</td>
             <td>Melbourne</td>
         </tr>
+
         <tr>
-            <td>Member 2</td>
+            <td>Kai Dicker</td>
             <td>UI Designer</td>
             <td>Chocolate</td>
             <td>Sydney</td>
         </tr>
+
+        <tr>
+            <td>Paul Harrington</td>
+            <td>Software Engineer</td>
+            <td>Chocolate</td>
+            <td>Changhua City, Taiwan</td>
+        </tr>
     </table>
-    </section>
-    </article>
-</div>    
-<footer>
-    <p>&#169; Linkly</p>
-    <ul>
-    <li><p class="menu"><a href="about.html">About</a></p></li>
-    <li><p class="menu"><a href="index.html">Index</a></p></li>
-    <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
-    <li><p class="menu"><a href="apply.html">Apply</a></p></li>
-    </ul>
-</footer>
-</body>
+
+
+        <footer>
+            <hr>
+            <p>&#169; <em>Linkly</em> (2026) <br> Your connection to the future.</p>
+            <ul>
+            <li><p class="menu"><a href="about.html">About</a></p></li>
+            <li><p class="menu"><a href="index.html">Index</a></p></li>
+            <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
+            <li><p class="menu"><a href="apply.html">Apply</a></p></li>
+            </ul>
+        </footer>
+    </body>
 
 </html>

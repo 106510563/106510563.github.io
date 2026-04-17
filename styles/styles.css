@@ -4,6 +4,8 @@ filename: [apply.css]
 
 author: [Ciara Smith]
 
+assistant: [Paul Harrington]
+
 created: [2 / 04 / 2026]
 
 last modified: [15 / 04 / 2026]
@@ -12,7 +14,7 @@ description: [apply.html style using CSS]
 
 */
 
-/* apply.html CSS */
+/* styles.html CSS */
 
 body{
     width: 810px;
@@ -34,6 +36,24 @@ body{
 a {
   text-decoration: none;
   color: #0E0C59;
+}
+/* Header*/
+header h1{
+  color: #0E0C59;
+  text-shadow: 1px 1px #37A5DD;
+  font-size: 50px;
+  margin-top: -92px;
+  margin-left: 86px;
+  text-align: center;
+  font-family: serif;
+}
+header h2{
+  color: #0E0C59; 
+  text-align: center;
+  font-size: 18px;
+  margin-top: -30px; 
+  margin-left: 125px;
+  font-family: serif;
 }
 
 /* Navigation / Menu */
@@ -140,11 +160,18 @@ table {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-table, th {
+table, th, td {
   border: 1px solid black;
   background: white;
 }
 
 th {
   background: lightblue;
+}
+
+/*about.html CSS*/
+
+/*to fix problems with list formmation*/
+.ulli li {
+  display:list-item;
 }
