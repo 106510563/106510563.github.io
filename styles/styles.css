@@ -176,5 +176,10 @@ th {
   display:list-item;
 }
 #funfact {
-  bor;
+ width: auto; 
+}
+
+#group{
+    max-width:100%;
+    height: auto;
 }
