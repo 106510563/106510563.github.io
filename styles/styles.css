@@ -65,7 +65,7 @@ nav ul {
     margin-top: -16px;
 }
 
-li {
+nav li {
   display: inline-block;
 }
 
@@ -91,6 +91,9 @@ nav a:hover {
     background: lightblue;
 }
 
+li{
+  display: list-item;
+}
 /* Form */
 
 fieldset {
@@ -131,6 +134,9 @@ footer a {
 footer ul {
   text-align: right;
 }
+footer li{
+  display: inline-block;
+}
 
 footer a::after{ /* adds a line ("|") after the menu links in the footer without making them apart of the links themselves */
   content: " | ";
@@ -156,7 +162,7 @@ article h2 {
 
 table {
   margin: auto;
-  width: 50%;
+  width: auto;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -175,6 +181,7 @@ th {
 .ulli li {
   display:list-item;
 }
+
 #funfact {
  width: auto; 
 }
