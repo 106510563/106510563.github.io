@@ -204,22 +204,12 @@ th {
 
 /*jobs.html CSS*/
 
-.Job1 {
+.Job{
     border: 1px solid black;
     margin: 25px;
     width: auto;
-}
-.Job2 {
-    float: left;
-    border: 1px solid black;
-    margin: 25px;
-    width: auto;
+    padding: 0 10px 0 10px;
+    margin: 15px;
+    background-color: whitesmoke;
 }
 
-.jobs {
-  margin: 15px;
-}
-
-.Job1, .Job2 {
-  padding: 0 10px 0 10px;
-}
