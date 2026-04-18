@@ -215,3 +215,7 @@ th {
 .jobs {
   margin: 15px;
 }
+
+.Job1, .Job2 {
+  padding: 0 10px 0 10px;
+}
