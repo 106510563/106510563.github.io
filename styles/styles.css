@@ -16,7 +16,7 @@ description: [apply.html style using CSS]
 
 /* styles.html CSS */
 
-body{
+body {
     width: 810px;
     max-width: 100%;
     margin: 0 auto 10px;
@@ -166,7 +166,7 @@ table {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-table, th, td {
+table, th, td, tr {
   border: 1px solid black;
   background: white;
 }
@@ -183,7 +183,7 @@ th {
 }
 
 #funfact {
- width: auto; 
+  width: auto; 
 }
 #group{
     max-width:100%;
@@ -200,5 +200,4 @@ th {
     float: left;
     border: 1px solid black;
     margin: 25px;
-    transform: translateY(250px);
 }
