@@ -2,19 +2,17 @@
 
 filename: [apply.css]
 
-author: [Ciara Smith]
-
-assistant: [Paul Harrington]
+authors: [Ciara Smith, Paul Harrington, Kai Dicker]
 
 created: [2 / 04 / 2026]
 
-last modified: [15 / 04 / 2026]
+last modified: [18 / 04 / 2026]
 
-description: [apply.html style using CSS]
+description: [linkly CSS stylesheet]
 
 */
 
-/* styles.html CSS */
+/* general CSS */
 
 body {
     width: 810px;
@@ -37,6 +35,7 @@ a {
   text-decoration: none;
   color: #0E0C59;
 }
+
 /* Header*/
 header h1{
   color: #0E0C59;
@@ -81,9 +80,18 @@ nav a {
 }
 
 nav a:hover {
-  font-size: 130%;
+  font-size: 110%;
   background: #1C8EC8;
   transition: 0.5s;
+}
+
+fieldset:hover {
+  scale: 103%;
+  transition: 1s;
+}
+
+button {
+  border: 2px outset black;
 }
 
 .description {
