@@ -160,6 +160,10 @@ footer a::after{ /* adds a line ("|") after the menu links in the footer without
   display: inline-block;
 }
 
+body > nav:nth-child(5) > ul:nth-child(2) > li:nth-child(6) > label:nth-child(1) {
+  color: whitesmoke;
+}
+
 article {
   background: lightblue;
   padding: 0.2em 1em 0.2em 01em;
@@ -215,4 +219,8 @@ th {
 
 .jobs {
   margin: 15px;
+}
+
+.Job1, .Job2 {
+  padding: 0 10px 0 10px;
 }
