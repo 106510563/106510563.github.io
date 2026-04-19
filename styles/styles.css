@@ -146,10 +146,7 @@ footer li{
   display: inline-block;
 }
 
-footer a::after{ /* adds a line ("|") after the menu links in the footer without making them apart of the links themselves */
-  content: " | ";
-  color: black;
-}
+
 
 
 /* index.html CSS */
