@@ -189,9 +189,20 @@ th {
 
 /*about.html CSS*/
 
-/*to fix problems with list formmation*/
-.ulli li {
-  display:list-item;
+
+
+#horizontal {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+#horizontal dt {
+  font-weight: bold;
+}
+
+#horizontal dd {
+  margin: 0;
 }
 
 #funfact {
