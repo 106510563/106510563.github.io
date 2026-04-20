@@ -167,7 +167,7 @@ footer a::after{ /* adds a line ("|") after the menu links in the footer without
 
 #searchBar {
   border: 2px outset black;
-  margin-left: 25px;
+  margin-left: 5px;
 }
 
 article {
