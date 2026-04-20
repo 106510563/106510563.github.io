@@ -217,9 +217,16 @@ th {
 #funfact {
   width: auto; 
 }
-#group{
-    max-width:100%;
-    height: auto;
+    
+#group {
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 3px 3px;
+}
+
+#group:hover {
+    scale: 103%;
+    transition: 1s;
 }
 
 /*jobs.html CSS*/
