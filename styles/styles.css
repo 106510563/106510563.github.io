@@ -2,17 +2,19 @@
 
 filename: [apply.css]
 
-authors: [Ciara Smith, Paul Harrington, Kai Dicker]
+author: [Ciara Smith]
+
+assistant: [Paul Harrington]
 
 created: [2 / 04 / 2026]
 
-last modified: [18 / 04 / 2026]
+last modified: [15 / 04 / 2026]
 
-description: [linkly CSS stylesheet]
+description: [apply.html style using CSS]
 
 */
 
-/* general CSS */
+/* styles.html CSS */
 
 body {
     width: 810px;
@@ -35,7 +37,6 @@ a {
   text-decoration: none;
   color: #0E0C59;
 }
-
 /* Header*/
 header h1{
   color: #0E0C59;
@@ -80,29 +81,9 @@ nav a {
 }
 
 nav a:hover {
-  font-size: 110%;
+  font-size: 130%;
   background: #1C8EC8;
   transition: 0.5s;
-}
-
-fieldset:hover {
-  scale: 103%;
-  transition: 1s;
-}
-
-search label {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
-
-button {
-  border: 2px outset black;
 }
 
 .description {
@@ -157,7 +138,10 @@ footer li{
   display: inline-block;
 }
 
-
+footer a::after{ /* adds a line ("|") after the menu links in the footer without making them apart of the links themselves */
+  content: " | ";
+  color: black;
+}
 
 
 /* index.html CSS */
@@ -165,10 +149,6 @@ footer li{
 #searchBar {
   border: 2px outset black;
   margin-left: 25px;
-}
-
-body > nav:nth-child(5) > ul:nth-child(2) > li:nth-child(6) > label:nth-child(1) {
-  color: whitesmoke;
 }
 
 article {
@@ -197,20 +177,9 @@ th {
 
 /*about.html CSS*/
 
-
-
-#horizontal {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  text-align: center;
-}
-
-#horizontal dt {
-  font-weight: bold;
-}
-
-#horizontal dd {
-  margin: 0;
+/*to fix problems with list formmation*/
+.ulli li {
+  display:list-item;
 }
 
 #funfact {
@@ -223,12 +192,12 @@ th {
 
 /*jobs.html CSS*/
 
-.job{
+.Job {
     border: 1px solid black;
     margin: 25px;
     width: auto;
-    padding: 0 10px 0 10px;
-    margin: 15px;
-    background-color: whitesmoke;
 }
 
+.jobs {
+  margin: 15px;
+}
