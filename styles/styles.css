@@ -1,20 +1,18 @@
 /*
 
-filename: [apply.css]
+filename: [styles.css]
 
-author: [Ciara Smith]
-
-assistant: [Paul Harrington]
+authors: [Ciara Smith, Paul Harrington, Kai Dicker]
 
 created: [2 / 04 / 2026]
 
-last modified: [15 / 04 / 2026]
+last modified: [20 / 04 / 2026]
 
-description: [apply.html style using CSS]
+description: [external stylesheet for each html pages]
 
 */
 
-/* styles.html CSS */
+/* general CSS */
 
 body {
     width: 810px;
@@ -81,7 +79,7 @@ nav a {
 }
 
 nav a:hover {
-  font-size: 130%;
+  font-size: 110%;
   background: #1C8EC8;
   transition: 0.5s;
 }
@@ -94,6 +92,22 @@ nav a:hover {
 li{
   display: list-item;
 }
+
+search label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+button {
+  border: 2px outset black;
+}
+
 /* Form */
 
 fieldset {
@@ -122,6 +136,11 @@ input {
   border: outset black 2px;
 }
 
+fieldset:hover {
+  scale: 103%;
+  transition: 1s;
+}
+
 /* Footer */
 
 footer a {
@@ -148,7 +167,7 @@ footer a::after{ /* adds a line ("|") after the menu links in the footer without
 
 #searchBar {
   border: 2px outset black;
-  margin-left: 25px;
+  margin-left: 5px;
 }
 
 article {
@@ -177,6 +196,19 @@ th {
 
 /*about.html CSS*/
 
+#horizontal {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+#horizontal dt {
+  font-weight: bold;
+}
+
+#horizontal dd {
+  margin: 0;
+
 /*to fix problems with list formmation*/
 .ulli li {
   display:list-item;
@@ -185,9 +217,16 @@ th {
 #funfact {
   width: auto; 
 }
-#group{
-    max-width:100%;
-    height: auto;
+    
+#group {
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 3px 3px;
+}
+
+#group:hover {
+    scale: 103%;
+    transition: 1s;
 }
 
 /*jobs.html CSS*/
@@ -196,6 +235,9 @@ th {
     border: 1px solid black;
     margin: 25px;
     width: auto;
+    padding: 0 10px 0 10px;
+    margin: 15px;
+    background-color: whitesmoke;
 }
 
 .jobs {

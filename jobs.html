@@ -1,41 +1,45 @@
 <!DOCTYPE html>
-<html lang="em">
+<html lang="en">
     <head>
-        <meta charset="utf-8"/>
-        <meta name="Jobs Board" content="The page that holds all the jobs people can apply for."/>
-        <meta name="keywords" content="technology, development, job, hiring, pay, hours"/>
-        <meta name="author" content="Kai Dicker"/>
-        <link href="styles/styles.css" rel="stylesheet"/>
+        <meta charset="utf-8">
+        <meta name="Jobs Board" content="The page that holds all the jobs people can apply for.">
+        <meta name="keywords" content="technology, development, job, hiring, pay, hours">
+        <meta name="author" content="Kai Dicker">
+        <link href="styles/styles.css" rel="stylesheet">
         <title>Jobs Page</title>
     </head>
     <body>
+        <a href="about.html"><img class="image" src="images/logo.png" alt="Linkly logo"></a>
+
         <header>
             <h1><a href="about.html">Linkly</a></h1>
             <h2><a href="about.html">Your connection to the future.</a></h2>
         </header> <!-- Features in-line CSS styles for both h1 and h2 -->
-        <nav class="jobs">
+        <nav>
             <ul>
                 <li><p class="menu"><a href="index.html">Index</a></p></li>
                 <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
                 <li><p class="menu"><a href="apply.html">Apply</a></p></li>
                 <li><p class="menu"><a href="about.html">About</a></p></li>
                 <li>
-                    <form action="/search-results" method="GET">
-                        <label for="searchBar" >Search</label>
-                        <input type="search" id="searchBar" name="q" onkeyup="requiresJavaScriptLol()" placeholder="Search jobs...">
-                        <button type="submit">Search</button>
-                    </form>
+                    <search>
+                        <form action="/search-results" method="GET">
+                            <label for="searchBar" >Search</label>
+                            <input type="search" id="searchBar" name="q" onkeyup="requiresJavaScriptLol()" placeholder="Search jobs...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </search>
                 </li>
             </ul>
         </nav>
 
         <article>
-            <img Class="image" src="images/logo.png" alt="The Logo">
+            <img class="image" src="images/logo.png" alt="The Logo">
             <h3>Now is your chance to have a hand in the future of technology!</h3>
             <p>Join us here at Linkly today and see the progress we make here towards the future of humanity.</p>
             <p>No matter your expertise, here at Linkly you'll be a valuable member of the family, your skills will be cherised and you'll help us strive to make a bright future for humanity.</p>
-        </article>
-        <section Class="Job">
+        
+        <section class="job">
             <h4>E-Commerce Customer Service Officer</h4>
             <div>
                 <p>As the E-Commerce Customer Service Officer, you will be the face of our company, the people who will assist our clients through any problem they may have. This job is meant for the charismatic and the proactive.</p>
@@ -54,13 +58,13 @@
             <div>
             <p>Key responsibilities for this role:</p>
                 <ul>
-                    <il>Answering phone calls from clients</il>
+                    <li>Answering phone calls from clients</li>
                     <li>Referring clients to resources or other members of staff for assistance when necessary</li>
                     <li>Assisting clients in finding solutions to their problems, whether that be on call or in person</li>
                 </ul>
             </div>
         </section>
-        <section Class="Job">
+        <section class="job">
             <h4>E-Commerce Coordinator</h4>
             <div>
                 <p>You will head an integral part of operations here at Linkly, whether that be montioring and maintainance of the site, tracking product sales, or assisting in marketing our various products that will bring humanity to the future.</p>
@@ -85,25 +89,19 @@
                 </ul>
             </div>
         </section>
-                <table>
-            <tr>
-                <th><em>Authors</em></th>
-                <th><em>Project</em></th>
-                <th><em>Github</em></th>
-            </tr>
-            <tr>
-                <th>Kai Dicker</th>
-                <th rowspan="3"><a href="https://ciarasmith.atlassian.net/jira/software/projects/EDRP/summary">Jira Page</a></th>
-                <th rowspan="3"><a href="https://github.com/106510563/106510563.github.io">ASM1</a></th>
-            </tr>
-            <tr>
-                <th>Ciara Smith</th>
-            </tr>
-            <tr>
-                <th>Paul Harrington</th>
-            </tr>
-        </table>
+
         </article>
 
+        <footer>
+            <hr>
+		    <p>&#169; <em>Linkly</em> (2026) <br> Your connection to the future.
+            <br><a href="info@linkly.com">info@linkly.com</a></p>
+            <ul>
+            <li><p class="menu"><a href="about.html">About</a></p></li>
+            <li><p class="menu"><a href="index.html">Index</a></p></li>
+            <li><p class="menu"><a href="jobs.html">Jobs</a></p></li>
+            <li><p class="menu"><a href="apply.html">Apply</a></p></li>
+            </ul>
+	    </footer>
     </body>
 </html>
