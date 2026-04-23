@@ -1,14 +1,14 @@
 /*
 
-filename: [styles.css]
+filename: [apply.css]
 
 authors: [Ciara Smith, Paul Harrington, Kai Dicker]
 
 created: [2 / 04 / 2026]
 
-last modified: [20 / 04 / 2026]
+last modified: [18 / 04 / 2026]
 
-description: [external stylesheet for each html pages]
+description: [linkly CSS stylesheet]
 
 */
 
@@ -35,6 +35,7 @@ a {
   text-decoration: none;
   color: #0E0C59;
 }
+
 /* Header*/
 header h1{
   color: #0E0C59;
@@ -84,13 +85,9 @@ nav a:hover {
   transition: 0.5s;
 }
 
-.description {
-    padding: 10px;
-    background: lightblue;
-}
-
-li{
-  display: list-item;
+fieldset:hover {
+  scale: 103%;
+  transition: 1s;
 }
 
 search label {
@@ -108,6 +105,14 @@ button {
   border: 2px outset black;
 }
 
+.description {
+    padding: 10px;
+    background: lightblue;
+}
+
+li{
+  display: list-item;
+}
 /* Form */
 
 fieldset {
@@ -136,11 +141,6 @@ input {
   border: outset black 2px;
 }
 
-fieldset:hover {
-  scale: 103%;
-  transition: 1s;
-}
-
 /* Footer */
 
 footer a {
@@ -157,17 +157,18 @@ footer li{
   display: inline-block;
 }
 
-footer a::after{ /* adds a line ("|") after the menu links in the footer without making them apart of the links themselves */
-  content: " | ";
-  color: black;
-}
+
 
 
 /* index.html CSS */
 
 #searchBar {
   border: 2px outset black;
-  margin-left: 5px;
+  margin-left: 25px;
+}
+
+body > nav:nth-child(5) > ul:nth-child(2) > li:nth-child(6) > label:nth-child(1) {
+  color: whitesmoke;
 }
 
 article {
@@ -196,6 +197,8 @@ th {
 
 /*about.html CSS*/
 
+
+
 #horizontal {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -208,38 +211,23 @@ th {
 
 #horizontal dd {
   margin: 0;
-
-/*to fix problems with list formmation*/
-.ulli li {
-  display:list-item;
 }
 
 #funfact {
   width: auto; 
 }
-    
-#group {
-  width: 100%;
-  border: 2px solid black;
-  box-shadow: 3px 3px;
-}
-
-#group:hover {
-    scale: 103%;
-    transition: 1s;
+#group{
+    max-width:100%;
+    height: auto;
 }
 
 /*jobs.html CSS*/
 
-.Job {
+.job{
     border: 1px solid black;
     margin: 25px;
     width: auto;
     padding: 0 10px 0 10px;
     margin: 15px;
     background-color: whitesmoke;
-}
-
-.jobs {
-  margin: 15px;
 }
